@@ -1,7 +1,7 @@
-FROM node:22-bookworm
+FROM node:20-bookworm
 
 # Available versions of Chromium are listed here: https://tracker.debian.org/pkg/chromium
-ARG CHROMIUM_VERSION=125.0.6422.141-1~deb12u1
+ARG CHROMIUM_VERSION=126.0.6478.56-1~deb12u1
 
 # Additional dependencies as per the Cypress documentation: https://docs.cypress.io/guides/getting-started/installing-cypress#Linux-Prerequisites
 RUN apt-get update  \
